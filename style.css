@@ -1,0 +1,323 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'raleway';
+src:url(Raleway-Bold.ttf);
+font-style:normal;
+font-weight:700;
+}
+
+@font-face{
+font-family:'raleway';
+src:url(Raleway-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+@font-face{
+font-family:'opensans';
+src:url(OpenSans_Condensed-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+body{
+background:#F7F7FE;
+font-family:opensans;
+}
+header{
+margin:20px;
+padding-bottom:20px;
+}
+
+nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+text-align:center;
+}
+
+nav ul{
+margin-top:-6px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+list-style:none;
+width:100%;
+}
+nav ul li{
+width:100%;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#58598A;
+font-size:13px;
+font-weight:400;
+font-family:raleway;
+padding-left:12px;
+}
+
+.logo{
+width:80px;
+margin-right:70px;
+}
+
+main{
+margin:30px;
+}
+
+.content{
+text-align:center;
+margin-bottom:60px;
+}
+
+.content h2{
+color:#060439;
+line-height:35px;
+margin-top:0px;
+font-family:opensans;
+font-size:29px;
+font-weight:700;
+}
+
+.content p{
+margin:15px 0;
+color:#58598A;
+font-weight:700;
+font-size:12px;
+line-height:20px;
+font-family:raleway;
+}
+
+.content input{
+width:100%;
+padding:10px 0 10px 15px;
+margin-bottom:10px;
+outline:none;
+font-family:raleway;
+font-size:10px;
+font-weight:700;
+color:#999;
+}
+
+.content button{
+width:100%;
+padding:10px 0;
+border:0;
+background:#3164F8;
+color:#eee;
+font-weight:700;
+font-family:raleway;
+font-size:12px;
+}
+
+.illus{
+width:100%;
+margin-bottom:20px;
+}
+
+.content .h2{
+font-size:18px;
+padding-top:70px;
+font-family:raleway;
+font-weight:700;
+}
+
+.content .p{
+text-align:left;
+padding-bottom:20px;
+font-family:raleway;
+font-size:13px;
+}
+
+.content .more{
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.arrow{
+width:32px;
+margin-left:1px;
+}
+
+.content a{
+border-bottom:1px solid #3DA090;
+text-decoration:none;
+padding-bottom:5px;
+color:#3DA090;
+font-weight:400;
+font-family:opensans;
+}
+
+.center{
+margin:0 10px;
+}
+
+.box{
+background:#fff;
+width:100%;
+padding:30px;
+text-align:left;
+border-radius:12px;
+margin-top:50px;
+margin-bottom:100px;
+padding-bottom:15px;
+padding-top:15px;
+}
+
+.box p{
+font-size:13px;
+font-weight:400;
+font-family:opensans;
+}
+
+.avater{
+border-radius:50%;
+width:30px;
+}
+
+.info{
+text-align:center;
+margin-top:-32px;
+margin-left:-80px;
+}
+
+h3{
+font-size:12px;
+margin-bottom:-7px;
+margin-left:3px;
+font-family:opensans;
+}
+
+small{
+font-size:8px;
+margin-right:-20px;
+font-family:opensans;
+}
+
+.email{
+background:#58598A;
+padding:60px 30px;
+width:100%;
+}
+
+.email input{
+background:#fff;
+width:80%;
+border:none;
+padding:8px;
+margin-bottom:10px;
+margin-left:30px;
+outline:none;
+}
+
+.email button{
+width:80%;
+padding:8px 0;
+border:0;
+background:#3164F8;
+color:#eee;
+font-weight:60;
+margin-left:30px;
+}
+
+.email h2{
+text-align:center;
+color:#eee;
+margin-bottom:20px;
+font-size:18px;
+font-family:raleway;
+
+}
+
+.email p{
+text-align:center;
+margin-bottom:20px;
+font-size:13px;
+color:#eee;
+font-weight:400;
+}
+
+footer{
+background:#060439;
+padding:40px;
+color:#eee;
+}
+
+footer a{
+text-decoration:none;
+display:block;
+margin-bottom:20px;
+color:#eee;
+font-size:13px;
+}
+
+footer .lg{
+margin-bottom:30px;
+margin-top:20px;
+background-color:;color:#eee;
+}
+
+footer span{
+display:inline-block;
+font-size:13px;
+margin-bottom:20px;
+text-align:center;
+margin-left:10px;
+}
+
+footer .about{
+padding-top:30px;
+}
+
+footer .cont{
+padding:30px 0;
+}
+
+.contact{
+display:inline-block;
+text-align:center;
+margin-bottom:-5px;
+}
+
+.links{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.social{
+display:flex;
+align-items:center;
+border:1px solid #fff;
+margin-right:10px;
+padding:6px;
+border-radius:50px;
+}
+
+.social-twitter{
+display:flex;
+align-items:center;
+border:1px solid #fff;
+margin-right:10px;
+padding:7.5px 6.5px;
+border-radius:50px;
+}
+
+.social-twitter img{
+border-radius:30px;
+width:15px;
+}
+
+.social img{
+border-radius:30px;
+width:15px;
+}
+
